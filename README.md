@@ -6,7 +6,7 @@
 >pip
 
 ```
-pip3 install emojipy
+pip3 install emojipyy
 ```
 
 > git
