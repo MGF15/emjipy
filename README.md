@@ -19,7 +19,7 @@ python3 setup.py install
 # Use 
 
 ```
->>> import emojipy
+>>> import emojipy # or  emojipyy if install it by pip
 >>> emojipy.emoji('fire')
 '🔥'
 >>> emojipy.emoji(':fire:')
