@@ -1,4 +1,4 @@
-# emojipy 
+# emjipy 
 
 > is simple emoji lib for python3
 
@@ -6,38 +6,38 @@
 >pip
 
 ```
-pip3 install emojipyy
+pip3 install emjipy
 ```
 
 > git
 ```
-git clone https://github.com/mgf15/emojipy.git
-cd emojipy 
+git clone https://github.com/mgf15/emjipy.git
+cd emjipy 
 python3 setup.py install 
 ```
 
 # Use 
 
 ```
->>> import emojipy # or  emojipyy if install it by pip
->>> emojipy.emoji('fire')
+>>> import emjipy
+>>> emjipy.emoji('fire')
 '🔥'
->>> emojipy.emoji(':fire:')
+>>> emjipy.emoji(':fire:')
 '🔥'
->>> emojipy.emoji_name('🔥')
+>>> emjipy.emoji_name('🔥')
 'fire'
->>> emojipy.emoji_unicode('🔥')
+>>> emjipy.emoji_unicode('🔥')
 '1F525'
->>> emojipy.version('🔥')
+>>> emjipy.version('🔥')
 'E0.6'
->>> print(emojipy.emoji('person gesturing NO: dark skin tone'))
+>>> print(emjipy.emoji('person gesturing NO: dark skin tone'))
 🙅🏿
 ```
 
 # version 
 
 ```
-1.0.2
+1.0.3
 ```
 
 # license 
