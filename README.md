@@ -32,6 +32,9 @@ python3 setup.py install
 'E0.6'
 >>> print(emjipy.emoji('person gesturing NO: dark skin tone'))
 🙅🏿
+>>> emjipy.emojiz('python is :fire:')
+'python is 🔥'
+
 ```
 
 # version 
